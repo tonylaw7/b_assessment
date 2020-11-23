@@ -48,7 +48,7 @@ def get_file_size(full_file_path):
     try:
         return os.path.getsize(os.path.join(full_file_path))
     except FileNotFoundError:
-        print("The system cannnot find the file {}".format(full_file_path))
+        print("The system can not find the file {}".format(full_file_path))
         return -1
 
 
