@@ -5,10 +5,13 @@
 ## Question 1
 **Usage**
 ---
-`python question1.py -p "<enter_your_path_here>"`
-or 
+`python question1.py -p "<enter_your_path_here>"`  
+or   
 `python question1.py --path "<enter_your_path_here>"`
 
+Example:  
+`python question1.py -p "C:/Windows"`
+ 
 The program will iterate over directories and subdirectories and output a list of all file content sorted by size 
 in ascending order
 
